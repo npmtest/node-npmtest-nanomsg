@@ -1,4 +1,7 @@
-# test coverage for  [nanomsg (v3.3.0)](https://github.com/nickdesaulniers/node-nanomsg#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-nanomsg.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-nanomsg) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-nanomsg.svg)](https://travis-ci.org/npmtest/node-npmtest-nanomsg)
+# npmtest-nanomsg
+
+#### test coverage for  [nanomsg (v3.3.0)](https://github.com/nickdesaulniers/node-nanomsg#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-nanomsg.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-nanomsg) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-nanomsg.svg)](https://travis-ci.org/npmtest/node-npmtest-nanomsg)
+
 #### Node bindings for nanomsg
 
 [![NPM](https://nodei.co/npm/nanomsg.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/nanomsg)
