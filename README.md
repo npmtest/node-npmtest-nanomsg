@@ -1,6 +1,6 @@
 # npmtest-nanomsg
 
-#### test coverage for  [nanomsg (v3.3.0)](https://github.com/nickdesaulniers/node-nanomsg#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-nanomsg.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-nanomsg) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-nanomsg.svg)](https://travis-ci.org/npmtest/node-npmtest-nanomsg)
+#### basic test coverage for  [nanomsg (v3.3.0)](https://github.com/nickdesaulniers/node-nanomsg#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-nanomsg.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-nanomsg) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-nanomsg.svg)](https://travis-ci.org/npmtest/node-npmtest-nanomsg)
 
 #### Node bindings for nanomsg
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-nanomsg/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-nanomsg/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-nanomsg/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-nanomsg/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-nanomsg/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-nanomsg/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-nanomsg/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-nanomsg/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-nanomsg/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-nanomsg/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-nanomsg/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-nanomsg/build/coverage.html/index.html)
 
@@ -142,7 +142,8 @@
         "symbols": "cd test && ruby mksymbols.rb > symbols.js",
         "test": "find test/*.js test/standalone/*.js | xargs -n 1 node | node_modules/tap-nyan/bin/cmd.js"
     },
-    "version": "3.3.0"
+    "version": "3.3.0",
+    "bin": {}
 }
 ```
 
